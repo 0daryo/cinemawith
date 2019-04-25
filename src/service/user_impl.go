@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/abyssparanoia/rapid-go/src/domain/model"
-	"github.com/abyssparanoia/rapid-go/src/domain/repository"
-	"github.com/abyssparanoia/rapid-go/src/lib/log"
+	"github.com/0daryo/cinemawith/src/domain/model"
+	"github.com/0daryo/cinemawith/src/domain/repository"
+	"github.com/0daryo/cinemawith/src/lib/log"
 )
 
 type user struct {

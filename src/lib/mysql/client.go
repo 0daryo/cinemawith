@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/abyssparanoia/rapid-go/src/lib/log"
+	"github.com/0daryo/cinemawith/src/lib/log"
 
 	sq "github.com/Masterminds/squirrel"
 	_ "github.com/go-sql-driver/mysql" // MySQL Driverの読み込み

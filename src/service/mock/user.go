@@ -6,7 +6,7 @@ package mock_service
 
 import (
 	context "context"
-	model "github.com/abyssparanoia/rapid-go/src/domain/model"
+	model "github.com/0daryo/cinemawith/src/domain/model"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

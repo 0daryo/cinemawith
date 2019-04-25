@@ -4,9 +4,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/abyssparanoia/rapid-go/src/domain/model"
-	"github.com/abyssparanoia/rapid-go/src/handler"
-	"github.com/abyssparanoia/rapid-go/src/service"
+	"github.com/0daryo/cinemawith/src/domain/model"
+	"github.com/0daryo/cinemawith/src/handler"
+	"github.com/0daryo/cinemawith/src/lib/log"
+	"github.com/0daryo/cinemawith/src/service"
 	validator "gopkg.in/go-playground/validator.v9"
 )
 
@@ -34,6 +35,7 @@ func (h *UserHandler) Get(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	param.UserID = userID
+	log.Debugf(ctx, "userID")
 
 	v := validator.New()
 	if err = v.Struct(param); err != nil {

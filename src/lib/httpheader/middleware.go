@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/abyssparanoia/rapid-go/src/lib/log"
+	"github.com/0daryo/cinemawith/src/lib/log"
 
 	"github.com/unrolled/render"
 )

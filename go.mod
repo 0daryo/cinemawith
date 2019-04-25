@@ -1,4 +1,4 @@
-module github.com/abyssparanoia/rapid-go
+module github.com/0daryo/cinemawith
 
 require (
 	cloud.google.com/go v0.37.4

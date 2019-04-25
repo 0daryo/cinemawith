@@ -1,11 +1,11 @@
 
-PROJECT_ID = abyssparanoia/rapid-go
+PROJECT_ID = 0daryo/cinemawith
 
 init:
-	@echo Initialize rapid-go now......
+	@echo Initialize cinemawith now......
 	go get -u github.com/golang/mock/gomock
 	go install github.com/golang/mock/mockgen
-	@echo Initialize rapid-go completed!!!!
+	@echo Initialize cinemawith completed!!!!
 
 build:
 	docker-compose build

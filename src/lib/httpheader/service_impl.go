@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/abyssparanoia/rapid-go/src/lib/log"
+	"github.com/0daryo/cinemawith/src/lib/log"
 
 	validator "gopkg.in/go-playground/validator.v9"
 )

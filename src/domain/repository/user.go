@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/abyssparanoia/rapid-go/src/infrastructure/entity"
+	"github.com/0daryo/cinemawith/src/infrastructure/entity"
 )
 
 // User ... ユーザーレポジトリのinterface

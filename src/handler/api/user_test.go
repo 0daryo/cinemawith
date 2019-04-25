@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/abyssparanoia/rapid-go/src/domain/model"
-	mock_service "github.com/abyssparanoia/rapid-go/src/service/mock"
+	"github.com/0daryo/cinemawith/src/domain/model"
+	mock_service "github.com/0daryo/cinemawith/src/service/mock"
 	"github.com/go-chi/chi"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
@@ -35,7 +35,7 @@ func TestUserHandler_Get(t *testing.T) {
 				userID: int64(1),
 				result: &model.User{
 					ID:   1,
-					Name: "abyssparanoia",
+					Name: "0daryo",
 					Sex:  "man",
 				},
 				err: nil,
@@ -44,7 +44,7 @@ func TestUserHandler_Get(t *testing.T) {
 			want: `{
 				"user": {
 					"id": 1,
-					"name": "abyssparanoia",
+					"name": "0daryo",
 					"sex" : "man"
 				}
 			}`,

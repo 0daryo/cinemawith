@@ -9,7 +9,7 @@ services:
     depends_on:
       - db
     volumes:
-      - .:/go/src/github.com/abyssparanoia/rapid-go
+      - .:/go/src/github.com/0daryo/cinemawith
     ports:
       - "3001:3001"
     environment:
@@ -17,7 +17,7 @@ services:
       - DB_HOST=tcp(db:3306)
       - DB_USER=root
       - DB_PASSWORD=password
-      - DB_DATABASE=cinemawith_dev
+      - DB_DATABASE=cinemawith
   db:
     build: ./mysql
     volumes:
@@ -28,4 +28,4 @@ services:
     environment:
       TZ: "Asia/Tokyo"
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: cinemawith_dev
+      MYSQL_DATABASE: cinemawith

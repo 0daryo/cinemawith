@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/abyssparanoia/rapid-go/src/domain/model"
-	mock_repository "github.com/abyssparanoia/rapid-go/src/domain/repository/mock"
-	"github.com/abyssparanoia/rapid-go/src/infrastructure/entity"
+	"github.com/0daryo/cinemawith/src/domain/model"
+	mock_repository "github.com/0daryo/cinemawith/src/domain/repository/mock"
+	"github.com/0daryo/cinemawith/src/infrastructure/entity"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )
@@ -37,7 +37,7 @@ func Test_user_Get(t *testing.T) {
 				userID: 1,
 				result: &entity.User{
 					ID:   1,
-					Name: "abyssparanoia",
+					Name: "0daryo",
 					Sex:  "man",
 				},
 				err: nil,
@@ -48,7 +48,7 @@ func Test_user_Get(t *testing.T) {
 			},
 			want: &model.User{
 				ID:   1,
-				Name: "abyssparanoia",
+				Name: "0daryo",
 				Sex:  "man",
 			},
 		},

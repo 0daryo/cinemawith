@@ -6,7 +6,7 @@ package mock_repository
 
 import (
 	context "context"
-	entity "github.com/abyssparanoia/rapid-go/src/infrastructure/entity"
+	entity "github.com/0daryo/cinemawith/src/infrastructure/entity"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

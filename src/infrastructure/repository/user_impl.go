@@ -4,10 +4,10 @@ import (
 	"context"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/abyssparanoia/rapid-go/src/domain/repository"
-	"github.com/abyssparanoia/rapid-go/src/infrastructure/entity"
-	"github.com/abyssparanoia/rapid-go/src/lib/log"
-	"github.com/abyssparanoia/rapid-go/src/lib/mysql"
+	"github.com/0daryo/cinemawith/src/domain/repository"
+	"github.com/0daryo/cinemawith/src/infrastructure/entity"
+	"github.com/0daryo/cinemawith/src/lib/log"
+	"github.com/0daryo/cinemawith/src/lib/mysql"
 	"github.com/jmoiron/sqlx"
 )
 
